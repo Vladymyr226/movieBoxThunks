@@ -1,0 +1,21 @@
+.main_container_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 1;
+}
+
+.header_type_films {
+  width: 65%;
+  margin: auto;
+}
+.container_paginator_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+.container_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+
+  :hover {
+    transform: scale(1.1);
+  }
+}
+
+.flex_item_card {
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 0.7em;
+  width: 150px;
+}
+
+.image_card_wrapper {
+  width: 150px;
+  height: 225px;
+}
+
+.image_card {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.title_card {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,32 @@
+.flex_container_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.flex_item_footer {
+  text-align: center;
+  font-size: 1.1em;
+  padding: 1.2em;
+  color: white;
+  width: 100%;
+}
+
+.color_footer {
+  background-color: rgb(4, 4, 100);
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+.title_footer {
+  text-transform: uppercase;
+  margin-bottom: -10px;
+}
+
+.flex {
+  display: flex;
+}

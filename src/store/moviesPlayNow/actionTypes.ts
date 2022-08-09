@@ -1,0 +1,6 @@
+export const MOVIES_PLAY_NOW_REQUEST = 'MOVIES_PLAY_NOW_REQUEST' as const
+export const MOVIES_PLAY_NOW_SUCCESS = 'MOVIES_PLAY_NOW_SUCCESS' as const
+export const MOVIES_PLAY_NOW_FAILURE = 'MOVIES_PLAY_NOW_FAILURE' as const
+
+export const INCREMENT_PAGE = 'INCREMENT_PAGE' as const
+export const DECREMENT_PAGE = 'DECREMENT_PAGE' as const
