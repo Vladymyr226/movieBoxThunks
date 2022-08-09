@@ -8,7 +8,7 @@ type StoreSearchMovies = {
 }
 
 const selectorSearchMovies: Selector<StoreSearchMovies, SearchMoviesToStore[]> = (state) => {
-  return state.search.films || []
+  return state.search.films
 }
 const selectorSearchIsLoading: Selector<StoreSearchMovies, boolean> = (state) => {
   return state.search.searchIsLoading

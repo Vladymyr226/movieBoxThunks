@@ -20,7 +20,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'max-len': [1, { code: 100 }],
-    // 'no-console': 'error',
+    'no-console': 'error',
     'react-hooks/exhaustive-deps': 'off',
   },
   //Warning: React version not specified in eslint-plugin-react settings

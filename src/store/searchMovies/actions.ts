@@ -25,8 +25,6 @@ export const getSearchMovies = (inputSearchValue: string) => async (dispatch: Di
 
     const dataToStore = await transformMoviesData(data.results)
 
-    // console.log('dataToStore\t', dataToStore)
-
     await dispatch(getSearchSuccess({ films: dataToStore }))
   } catch (error) {
     dispatch(getSearchFailure({ errorMessage: 'Failed req get movies' }))
