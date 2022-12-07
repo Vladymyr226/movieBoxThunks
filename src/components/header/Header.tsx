@@ -14,7 +14,7 @@ const Header = () => {
           Смотрят сейчас
         </Link>
       </div>
-      <div className="flex_item_header">
+      {/* <div className="flex_item_header">
         <a
           className="a"
           target={'_blank'}
@@ -23,7 +23,7 @@ const Header = () => {
         >
           Исходный код
         </a>
-      </div>
+      </div> */}
     </header>
   )
 }
